@@ -4,32 +4,34 @@ import { ref } from 'vue'
 
 const planos = [
   {
-    name: 'PLANO A',
-    description: 'Lorem ipsum dolor',
-    price: 'R$ XX',
-    period: '/mês',
+    name: 'KONG FIT GYM',
+    description: 'Tropa Kong',
+    price: '12x R$ 249',
+    period: '',
     features: [
-      'Lorem ipsum dolor sit amet',
-      'Consectetur adipiscing elit',
-      'Sed do eiusmod tempor',
-      'Incididunt ut labore',
-      'Et dolore magna aliqua'
+      'Musculação',
+      'Open Box',
+      'Acesso ilimitado todos os dias',
+      'Clube de benefícios',
+      '20% de desconto em todos os produtos Kong',
+      '3 convidados por mês'
     ],
     popular: false
   },
   {
-    name: 'PLANO B',
-    description: 'Lorem ipsum dolor',
-    price: 'R$ XX',
-    period: '/mês',
+    name: 'KONG FIT ILIMITADO',
+    description: 'Tropa Kong',
+    price: '12x R$ 320',
+    period: '',
     features: [
-      'Lorem ipsum dolor sit amet',
-      'Consectetur adipiscing elit',
-      'Sed do eiusmod tempor',
-      'Incididunt ut labore',
-      'Et dolore magna aliqua',
-      'Ut enim ad minim veniam',
-      'Quis nostrud exercitation'
+      'Musculação',
+      'CrossTraining',
+      'Endurox (Modelo Hyrox)',
+      'Open Box',
+      'Acesso ilimitado todos os dias',
+      'Clube de benefícios',
+      '20% de desconto em todos os produtos Kong',
+      '3 convidados por mês'
     ],
     popular: true
   },

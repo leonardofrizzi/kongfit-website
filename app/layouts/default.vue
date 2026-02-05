@@ -113,6 +113,13 @@ onMounted(() => {
             Loja
           </NuxtLink>
 
+          <NuxtLink
+            to="/fundadores"
+            class="text-sm font-medium text-white/80 transition-colors hover:text-primary uppercase tracking-wide"
+          >
+            Fundadores
+          </NuxtLink>
+
           <!-- Social Icons -->
           <div class="flex items-center gap-3 ml-4 pl-4 border-l border-white/20">
             <a
@@ -206,6 +213,14 @@ onMounted(() => {
             @click="isMenuOpen = false"
           >
             Loja
+          </NuxtLink>
+
+          <NuxtLink
+            to="/fundadores"
+            class="text-lg font-medium text-white/80 transition-colors hover:text-primary uppercase tracking-wide"
+            @click="isMenuOpen = false"
+          >
+            Fundadores
           </NuxtLink>
 
           <!-- Mobile Social -->
@@ -330,6 +345,11 @@ onMounted(() => {
               <li>
                 <NuxtLink to="/loja" class="text-muted-foreground hover:text-primary transition-colors">
                   Loja
+                </NuxtLink>
+              </li>
+              <li>
+                <NuxtLink to="/fundadores" class="text-muted-foreground hover:text-primary transition-colors">
+                  Fundadores
                 </NuxtLink>
               </li>
             </ul>

@@ -182,11 +182,11 @@ const modalidades = [
       <div class="container">
         <div class="max-w-4xl mx-auto text-center mb-12">
           <h2 class="font-display text-6xl text-white mb-6">
-            MAIS QUE UMA
+            SOMOS MAIS DO QUE UMA
             <span class="text-primary">ACADEMIA</span>
           </h2>
-          <p class="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-            Somos um complexo esportivo completo com atividades para toda a família. Um lugar de diversão, saúde, amizade e conquistas onde você vai treinar, se divertir e ser feliz.
+          <p class="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto md:text-justify">
+            Somos uma Escola, e há mais de 10 anos ajudamos nossos alunos a realizarem seus sonhos. Além de buscar a transformação do corpo e torná-lo cada vez mais forte fisicamente, trabalhamos o equilíbrio emocional de nossos alunos para que ambos caminhem alinhados proporcionando uma evolução exponencial em seus estilos de vida. Cada aula é uma experiência única em um ambiente que respira motivação e superação. Seja no Crosstraining, na Academia ou no Circus, aqui você encontra tudo o que precisa para alcançar seus objetivos.
           </p>
         </div>
 
