@@ -1,10 +1,8 @@
 <script setup lang="ts">
 import {
   Dumbbell,
-  StretchHorizontal,
   Flame,
   CircleDot,
-  Box,
   HeartPulse,
   ArrowLeft,
   Clock,
@@ -33,28 +31,6 @@ const modalidadesData: Record<string, {
   forWho: string
   stats: { value: string; label: string }[]
 }> = {
-  'alongamento': {
-    title: 'ALONGAMENTO',
-    subtitle: 'Flexibilidade que transforma',
-    description: 'O alongamento é fundamental para melhorar sua performance em qualquer modalidade. Nossas aulas trabalham flexibilidade, mobilidade articular e recuperação muscular, prevenindo lesões e potencializando seus resultados.',
-    icon: StretchHorizontal,
-    benefits: [
-      'Flexibilidade',
-      'Previne lesões',
-      'Melhora postura',
-      'Recuperação',
-      'Menos dores',
-      'Mobilidade'
-    ],
-    schedule: 'Seg a Sex - Diversos horários',
-    intensity: 'Baixa a Moderada',
-    forWho: 'Todos os níveis',
-    stats: [
-      { value: '45min', label: 'Por aula' },
-      { value: '100%', label: 'Recuperação' },
-      { value: '+5x', label: 'Flexibilidade' }
-    ]
-  },
   'academia': {
     title: 'ACADEMIA',
     subtitle: 'Musculação de verdade',
@@ -99,18 +75,40 @@ const modalidadesData: Record<string, {
       { value: '100%', label: 'Intensidade' }
     ]
   },
+  'endurox': {
+    title: 'ENDUROX',
+    subtitle: 'Resistência estilo Hyrox',
+    description: 'Treinamento de resistência inspirado no formato Hyrox, combinando corrida com exercícios funcionais. Prepare-se para competições ou simplesmente eleve seu condicionamento a outro nível.',
+    icon: HeartPulse,
+    benefits: [
+      'Resistência',
+      'Condicionamento',
+      'Força funcional',
+      'Preparação competição',
+      'Queima intensa',
+      'Superação'
+    ],
+    schedule: 'Consulte horários disponíveis',
+    intensity: 'Alta',
+    forWho: 'Intermediário a avançado',
+    stats: [
+      { value: '8km', label: 'Corrida total' },
+      { value: '8', label: 'Estações' },
+      { value: '100%', label: 'Intensidade' }
+    ]
+  },
   'circus': {
     title: 'CIRCUS',
     subtitle: 'Arte e força combinadas',
-    description: 'Modalidade que une força, flexibilidade e técnicas circenses. Aprenda acrobacias aéreas, tecido, lira e muito mais. Treino diferente que desafia corpo e mente.',
+    description: 'Modalidade que une força, flexibilidade e técnicas circenses. Oferecemos aulas de Ginástica Solo, Tecido Acrobático e Lira Circense. Treino diferente que desafia corpo e mente.',
     icon: CircleDot,
     benefits: [
-      'Força funcional',
-      'Consciência corporal',
+      'Ginástica Solo',
+      'Tecido Acrobático',
+      'Lira Circense',
       'Flexibilidade',
-      'Coordenação',
-      'Superação',
-      'Acrobacias'
+      'Força funcional',
+      'Consciência corporal'
     ],
     schedule: 'Consulte horários disponíveis',
     intensity: 'Moderada a Alta',
@@ -119,50 +117,6 @@ const modalidadesData: Record<string, {
       { value: '6m', label: 'Altura tecido' },
       { value: '360°', label: 'Movimentos' },
       { value: '∞', label: 'Possibilidades' }
-    ]
-  },
-  'open-box': {
-    title: 'OPEN BOX',
-    subtitle: 'Liberdade para treinar',
-    description: 'Acesso livre ao box para você treinar no seu ritmo. Ideal para quem já tem experiência e quer fazer seus próprios WODs ou treinos complementares. Todo equipamento disponível.',
-    icon: Box,
-    benefits: [
-      'Horário flexível',
-      'Autonomia',
-      'Equipamentos',
-      'Ambiente top',
-      'Sem restrição',
-      'Seu ritmo'
-    ],
-    schedule: 'Horários específicos - consulte',
-    intensity: 'Você define',
-    forWho: 'Atletas com experiência',
-    stats: [
-      { value: '100%', label: 'Liberdade' },
-      { value: 'Full', label: 'Equipamentos' },
-      { value: '0', label: 'Restrições' }
-    ]
-  },
-  'cardio': {
-    title: 'CARDIO',
-    subtitle: 'Coração forte',
-    description: 'Área dedicada com esteiras, bikes, remos e air bikes. Equipamentos de alta qualidade para você queimar calorias, melhorar o condicionamento e cuidar da saúde cardiovascular.',
-    icon: HeartPulse,
-    benefits: [
-      'Equipamentos top',
-      'Queima gordura',
-      'Condicionamento',
-      'Saúde cardio',
-      'Complementa muscu',
-      'Resistência'
-    ],
-    schedule: 'Disponível no horário da academia',
-    intensity: 'Você controla',
-    forWho: 'Todos os níveis',
-    stats: [
-      { value: '20+', label: 'Equipamentos' },
-      { value: '500+', label: 'Cal/hora' },
-      { value: '♥', label: 'Saúde' }
     ]
   }
 }

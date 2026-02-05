@@ -1,10 +1,8 @@
 <script setup lang="ts">
 import {
   Dumbbell,
-  StretchHorizontal,
   Flame,
   CircleDot,
-  Box,
   HeartPulse,
   ArrowRight
 } from 'lucide-vue-next'
@@ -23,28 +21,16 @@ const modalidades = [
     description: 'Treino funcional de alta intensidade.'
   },
   {
-    slug: 'open-box',
-    title: 'OPEN BOX',
-    icon: Box,
-    description: 'Acesso livre para treinar no seu ritmo.'
-  },
-  {
-    slug: 'cardio',
-    title: 'CARDIO',
+    slug: 'endurox',
+    title: 'ENDUROX',
     icon: HeartPulse,
-    description: 'Área completa de equipamentos cardio.'
+    description: 'Treinamento estilo Hyrox para resistência.'
   },
   {
     slug: 'circus',
     title: 'CIRCUS',
     icon: CircleDot,
-    description: 'Acrobacias e técnicas circenses.'
-  },
-  {
-    slug: 'alongamento',
-    title: 'ALONGAMENTO',
-    icon: StretchHorizontal,
-    description: 'Flexibilidade e mobilidade para potencializar seus treinos.'
+    description: 'Ginástica Solo, Tecido Acrobático e Lira Circense.'
   }
 ]
 </script>

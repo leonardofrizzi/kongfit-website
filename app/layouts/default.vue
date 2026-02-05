@@ -6,10 +6,8 @@ import {
   MapPin,
   ChevronDown,
   Dumbbell,
-  StretchHorizontal,
   Flame,
   CircleDot,
-  Box,
   HeartPulse
 } from 'lucide-vue-next'
 
@@ -19,11 +17,9 @@ const isModalidadesOpen = ref(false)
 
 const modalidades = [
   { name: 'Academia', href: '/modalidades/academia', icon: Dumbbell },
-  { name: 'Crosstraining', href: '/modalidades/crosstraining', icon: Flame },
-  { name: 'Open Box', href: '/modalidades/open-box', icon: Box },
-  { name: 'Cardio', href: '/modalidades/cardio', icon: HeartPulse },
+  { name: 'CrossTraining', href: '/modalidades/crosstraining', icon: Flame },
+  { name: 'Endurox', href: '/modalidades/endurox', icon: HeartPulse },
   { name: 'Circus', href: '/modalidades/circus', icon: CircleDot },
-  { name: 'Alongamento', href: '/modalidades/alongamento', icon: StretchHorizontal },
 ]
 
 const navigation = [
